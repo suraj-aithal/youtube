@@ -6,7 +6,7 @@ const Maincomponent = () => {
   return (
     <div>
         <Buttonlist />
-        <Videocontrainer />
+        <Videocontrainer />       
     </div>
   )
 }

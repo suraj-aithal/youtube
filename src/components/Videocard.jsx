@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Videocard = ({info}) => {
+  
 
     if(!info?.snippet)return;
     const {title,channelTitle,thumbnails} = info?.snippet;
@@ -15,5 +16,11 @@ const Videocard = ({info}) => {
     </div>
   )
 }
+
+// export const Addvideo = ({info}) =>{     Higher Order Component
+//   return (
+//     <div className='border border-red-700 p-2 m-2'><Videocard info={info} /></div>
+//   )
+// }
 
 export default Videocard

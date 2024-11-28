@@ -9,6 +9,7 @@ const Watch = () => {
     console.log(searchparams.get("v"));
     useEffect(()=>{
         dispatch(closemenu())
+        
     },[])
 
   return (
