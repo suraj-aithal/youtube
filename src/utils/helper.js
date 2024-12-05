@@ -53,5 +53,5 @@ var nameList = [
     }
     
     // Example Usage:
-    console.log(getRandomComment());
+    // console.log(getRandomComment()); 
     

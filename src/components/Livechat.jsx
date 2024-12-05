@@ -20,7 +20,7 @@ const Livechat = () => {
         text: getRandomComment()
        }))
 
-       console.log('api polling')
+    //    console.log('api polling') 
         },500)
 
         return () => clearInterval(i);
