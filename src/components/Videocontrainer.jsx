@@ -32,7 +32,8 @@ const Videocontrainer = () => {
       {/* {videos[0] && <Addvideo info={videos[0]} />}    This is for the higher order component */}
       {
       data && data.map((video)=>(
-         <Link to={"/watch?v="+video.id}> 
+        
+        <Link to={"/watch?v="+( video.id?.videoId ||  video?.id)}> 
          <Videocard key={video.id} info={video}/>
          </Link>
         ))
